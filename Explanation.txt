@@ -1,0 +1,43 @@
+Subi is fond of string and numbers, so she decided to play with by string as "Monotone Increasing" string
+a string of 0's and 1's, if it consists of some number of '0's (possibly 0), followed by some number of '1's (also possibly 0.)
+we may flip any '0' to a '1' or a '1' to a '0'.
+Return the minimum number of flips to make S monotone increasing.
+
+Input Description:
+A string containing 0's and 1's
+
+Output Description:
+the minimum number of flips to make S monotone increasing
+
+Sample Input:
+00101
+
+Sample Output:
+1
+
+Explanation:
+the digit 0 at place 4 can be changed so that 00111 can be attained so the output is 1 (00111, two 0's and three 1's, that is monotone increasing string)
+
+Sample Input:
+0100110
+
+Sample Output:
+2
+
+Sample Input:
+00110110101111
+
+Sample Output:
+3
+
+Sample Input:
+00110001101010101010011001111111
+
+Sample Output:
+11
+
+Sample Input:
+00011010000011101010101010001111110000011111111
+
+Sample Output:
+16
